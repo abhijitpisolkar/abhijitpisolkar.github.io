@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bg-background {
+    background-color: #F3F4F6; /* Light background color */
+}
+
+.text-foreground {
+    color: #1F2937; /* Dark text color */
+}
+
+.bg-primary {
+    background-color: #FF8C00; /* Orange background */
+}
+
+.text-primary-foreground {
+    color: #FFFFFF; /* White text color */
+}
+
+.bg-secondary {
+    background-color: #32CD32; /* Green background */
+}
+
+.text-secondary-foreground {
+    color: #FFFFFF; /* White text color */
+}
+
+.bg-card {
+    background-color: #FF69B4; /* Pink background */
+}
+
+.text-card-foreground {
+    color: #FFFFFF; /* White text color */
+}
+
+.border-border {
+    border-color: #E5E7EB; /* Light border color */
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-xl {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:shadow-xl:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.transition-shadow {
+    transition: box-shadow 0.3s;
+}
+
+.rounded-lg {
+    border-radius: 8px;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

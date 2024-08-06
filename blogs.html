@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhijit Pisolkar's Blogs</title>
+  <meta name="description" content="Blogs by Abhijit Pisolkar, a software developer specializing in AWS Cloud Technology and Python Development.">
+  <link href="blogs.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">AP</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="toggle-switch">
+          <label class="switch-label">
+            <input type="checkbox" class="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="blog-section">
+        <h1>Latest Blogs</h1>
+        <div class="blog-post">
+          <h2>Blog Post Title 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas dui, vel blandit lacus.</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="blog-post">
+          <h2>Blog Post Title 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas dui, vel blandit lacus.</p>
+          <a href="#">Read more</a>
+        </div>
+        <!-- Add more blog posts as needed -->
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Abhijit Pisolkar. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const footer = document.querySelector('footer');
+    const blogPosts = document.querySelectorAll('.blog-post a');
+
+    themeToggle.addEventListener('change', () => {
+      body.classList.toggle('dark-mode');
+      footer.classList.toggle('dark-mode');
+      blogPosts.forEach(blogPost => blogPost.classList.toggle('dark-mode'));
+    });
+  </script>
+</body>
+</html>

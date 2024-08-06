@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Abhijit Pisolkar</title>
+    <link href="portfolio.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+</head>
+<body>
+    <div class="min-h-screen bg-background text-foreground">
+        <nav class="flex justify-between items-center p-6 bg-primary text-primary-foreground shadow-lg">
+            <img src="C:\Users\Abhijeet\Desktop\My Portfolio Website\AP_portfolio_logo.jpg" alt="Logo" class="w-12 h-12 rounded-full">
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+                <li><a href="about.html" class="hover:text-secondary">About</a></li>
+                <li><a href="services.html" class="hover:text-secondary">Services</a></li>
+                <li><a href="portfolio.html" class="hover:text-secondary">Portfolio</a></li>
+                <li><a href="blogs.html" class="hover:text-secondary">Blogs</a></li>
+                <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="bg-card text-card-foreground py-20">
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl font-bold mb-4">My Portfolio</h1>
+                <p class="text-lg mb-8">Explore my projects and accomplishments. Feel free to download my resume for more details.</p>
+                <a href="resume.pdf" download class="bg-secondary text-secondary-foreground hover:bg-secondary/80 py-2 px-4 rounded shadow-md">Download Resume</a>
+            </div>
+        </header>
+
+        <section class="py-16">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://placehold.co/400x300?text=Project+1" alt="Project 1" class="w-full h-32 object-cover rounded-t-lg">
+                    <h2 class="text-xl font-semibold mt-4">Project 1</h2>
+                    <p class="mt-2">Brief description of Project 1.</p>
+                </div>
+                <div class="p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://placehold.co/400x300?text=Project+2" alt="Project 2" class="w-full h-32 object-cover rounded-t-lg">
+                    <h2 class="text-xl font-semibold mt-4">Project 2</h2>
+                    <p class="mt-2">Brief description of Project 2.</p>
+                </div>
+                <div class="p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img src="https://placehold.co/400x300?text=Project+3" alt="Project 3" class="w-full h-32 object-cover rounded-t-lg">
+                    <h2 class="text-xl font-semibold mt-4">Project 3</h2>
+                    <p class="mt-2">Brief description of Project 3.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <footer class="bg-primary text-primary-foreground py-6 text-center">
+            <p>&copy; 2024 Abhijit Pisolkar. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

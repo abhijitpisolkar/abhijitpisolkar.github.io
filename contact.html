@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Abhijit Pisolkar Portfolio</title>
+  <meta name="description" content="Contact page for Abhijit Pisolkar. Get in touch for inquiries or opportunities.">
+
+  <!-- Link to the global CSS file -->
+  <link href="global.css" rel="stylesheet">
+  
+  <!-- Link to the contact page CSS file -->
+  <link href="contact.css" rel="stylesheet">
+  
+  <!-- Tailwind CSS and other scripts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-background text-foreground">
+    <nav class="flex justify-between items-center p-6 bg-primary text-primary-foreground shadow-lg">
+      <div class="flex items-center">
+        <img src="C:\Users\Abhijeet\Desktop\My Portfolio Website\AP_portfolio_logo.jpg" alt="AP Portfolio Logo" class="w-16 h-16 rounded-full mr-4">
+        <div class="text-lg font-bold">ap.</div>
+      </div>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+        <li><a href="about.html" class="hover:text-secondary">About</a></li>
+        <li><a href="services.html" class="hover:text-secondary">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-secondary">Portfolio</a></li>
+        <li><a href="blogs.html" class="hover:text-secondary">Blogs</a></li>
+        <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="bg-orange text-white py-20">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">Contact Me</h1>
+        <p class="mb-6">Feel free to reach out for inquiries or opportunities.</p>
+      </div>
+    </header>
+
+    <section class="container mx-auto py-16">
+      <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
+        <form action="submit_form.php" method="POST">
+          <div class="mb-4">
+            <label for="name" class="block text-sm font-medium text-foreground mb-2">Name</label>
+            <input type="text" id="name" name="name" required class="w-full p-2 border border-border rounded">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-sm font-medium text-foreground mb-2">Email</label>
+            <input type="email" id="email" name="email" required class="w-full p-2 border border-border rounded">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-sm font-medium text-foreground mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" required class="w-full p-2 border border-border rounded"></textarea>
+          </div>
+          <button type="submit" class="bg-green text-white hover:bg-green-700 py-2 px-4 rounded shadow-md">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-primary text-primary-foreground py-4 text-center">
+      <p>&copy; 2024 Abhijit Pisolkar. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

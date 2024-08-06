@@ -1,0 +1,22 @@
+/* Base styles for the About section */
+#about {
+    background-color: hsl(var(--card));
+    color: hsl(var(--card-foreground));
+    padding: 4rem 0;
+  }
+  
+  #about h2 {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 700; /* Tailwind font-bold */
+  }
+  
+  #about p {
+    font-size: 1.125rem; /* Tailwind text-lg */
+    line-height: 1.75; /* Tailwind leading-relaxed */
+  }
+  
+  #about img {
+    border-radius: 9999px; /* Tailwind rounded-full */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-xl */
+  }
+  

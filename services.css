@@ -1,0 +1,27 @@
+/* Styles for the Services section */
+#services {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    padding: 4rem 0;
+  }
+  
+  #services h2 {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 2rem; /* Tailwind mb-8 */
+    text-align: center;
+  }
+  
+  #services .service {
+    background-color: hsl(var(--card));
+    color: hsl(var(--card-foreground));
+    padding: 1.5rem; /* Tailwind p-6 */
+    border-radius: 0.75rem; /* Tailwind rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
+    transition: box-shadow 0.3s; /* Tailwind transition-shadow duration-300 */
+  }
+  
+  #services .service:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Tailwind hover:shadow-xl */
+  }
+  

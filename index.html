@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhijit Pisolkar Portfolio</title>
+  <meta name="description" content="Portfolio website of Abhijit Pisolkar, a software developer specializing in AWS Cloud Technology and Python Development.">
+  
+  <!-- Link to the global CSS file -->
+  <link href="global.css" rel="stylesheet">
+  
+  <!-- Tailwind CSS and other scripts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+  <script type="text/javascript">
+    window.tailwind.config = {
+      darkMode: ['class'],
+      theme: {
+        extend: {
+          colors: {
+            yellow: '#FFD700',
+            orange: '#FF8C00',
+            red: '#FF4500',
+            white: '#FFFFFF',
+            black: '#000000',
+            green: '#32CD32',
+            skyblue: '#87CEEB',
+            border: '#E5E7EB',
+            input: '#F3F4F6',
+            ring: '#C7D2FE',
+            background: '#F3F4F6',
+            foreground: '#1F2937',
+            primary: {
+              DEFAULT: '#FF8C00',
+              foreground: '#FFFFFF'
+            },
+            secondary: {
+              DEFAULT: '#32CD32',
+              foreground: '#FFFFFF'
+            },
+            card: {
+              DEFAULT: '#87CEEB',
+              foreground: '#FFFFFF'
+            },
+          },
+        }
+      }
+    }
+  </script>
+
+</head>
+<body>
+  <div class="min-h-screen bg-background text-foreground">
+    <nav class="flex justify-between items-center p-6 bg-primary text-primary-foreground shadow-lg">
+      <div class="flex items-center">
+        <img src="C:\Users\Abhijeet\Desktop\My Portfolio Website\AP_portfolio_logo.jpg" alt="AP Portfolio Logo" class="w-16 h-16 rounded-full mr-4">
+        <div class="text-lg font-bold">abhijit_pisolkar</div>
+      </div>
+      
+  <!-- Menu Design-->
+  <nav class="menu">
+    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open">
+    <label class="menu-open-button" for="menu-open">
+     <span class="lines line-1"></span>
+     <span class="lines line-2"></span>
+     <span class="lines line-3"></span>
+   </label>
+ 
+    <a href="index.html" class="menu-item blue"> <i class="fa fa-anchor"></i> </a>
+    <a href="about.html" class="menu-item green"> <i class="fa fa-coffee"></i> </a>
+    <a href="services.html" class="menu-item red"> <i class="fa fa-heart"></i> </a>
+    <a href="portfolio.html" class="menu-item purple"> <i class="fa fa-microphone"></i> </a>
+    <a href="blogs.html" class="menu-item orange"> <i class="fa fa-star"></i> </a>
+    <a href="contact.html" class="menu-item lightblue"> <i class="fa fa-diamond"></i> </a>
+ </nav>
+
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+        <li><a href="about.html" class="hover:text-secondary">About</a></li>
+        <li><a href="services.html" class="hover:text-secondary">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-secondary">Portfolio</a></li>
+        <li><a href="blogs.html" class="hover:text-secondary">Blogs</a></li>
+        <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="bg-orange text-white py-20">
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 text-center md:text-left">
+          <h4 class="text-4xl font-bold mb-4">Hi, I'm Abhijit Pisolkar, a passionate software developer specializing in AWS Cloud Technology and Python Development.</h4>
+          <p class="mb-6">I am a software developer with experience in Python, AWS Cloud, and Cyber Security. I aim to leverage my skills to contribute to innovative projects.</p>
+          <a href="contact.html">
+            <button class="bg-green text-white hover:bg-green-700 py-2 px-4 rounded shadow-md">Contact Me</button>
+          </a>
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+          <img src="C:\Users\Abhijeet\Desktop\My Portfolio Website\Abhijit_proff_pic.jpg" alt="Portrait of Abhijit Pisolkar" class="rounded-full shadow-xl">
+        </div>
+      </div>
+    </header>
+    
+
+    <section class="bg-card text-white py-16">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <img src="https://placehold.co/64x64?text=🎨" alt="Project Icon" class="mx-auto mb-4">
+          <h2 class="text-xl font-semibold mb-2">Projects</h2>
+          <p class="text-foreground">1. Realtime Face Attendance System</p>
+        </div>
+        <div class="text-center p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <img src="https://placehold.co/64x64?text=📈" alt="Experience Icon" class="mx-auto mb-4">
+          <h2 class="text-xl font-semibold mb-2">Experience & Internship</h2>
+          <p class="text-foreground">1. Python Developer at Paarsh InfoTech PRV. LTD, Nashik</p>
+        </div>
+        <div class="text-center p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <img src="https://placehold.co/64x64?text=💡" alt="Contribution Icon" class="mx-auto mb-4">
+          <h2 class="text-xl font-semibold mb-2">Contribution</h2>
+          <p class="text-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Site Map Section -->
+    <section class="bg-background text-foreground py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-6">Site Map</h2>
+        <ul class="list-disc pl-5">
+          <li><a href="index.html" class="text-primary hover:text-secondary">Home</a></li>
+          <li><a href="about.html" class="text-primary hover:text-secondary">About</a></li>
+          <li><a href="services.html" class="text-primary hover:text-secondary">Services</a></li>
+          <li><a href="portfolio.html" class="text-primary hover:text-secondary">Portfolio</a></li>
+          <li><a href="blogs.html" class="text-primary hover:text-secondary">Blogs</a></li>
+          <li><a href="contact.html" class="text-primary hover:text-secondary">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

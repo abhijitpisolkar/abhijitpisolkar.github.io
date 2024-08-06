@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Abhijit Pisolkar</title>
+
+    <!-- Link to the global and services-specific CSS files -->
+    <link href="global.css" rel="stylesheet">
+    <link href="services.css" rel="stylesheet">
+
+    <!-- Tailwind CSS and other scripts -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography" defer></script>
+</head>
+<body>
+    <div class="min-h-screen bg-background text-foreground">
+        <nav class="flex justify-between items-center p-6 bg-primary text-primary-foreground shadow-lg">
+            <div class="text-lg font-bold">ap.</div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+                <li><a href="about.html" class="hover:text-secondary">About</a></li>
+                <li><a href="services.html" class="hover:text-secondary">Services</a></li>
+                <li><a href="portfolio.html" class="hover:text-secondary">Portfolio</a></li>
+                <li><a href="blogs.html" class="hover:text-secondary">Blogs</a></li>
+                <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="services" class="py-20">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12">Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Web Development</h3>
+                        <p>Building responsive and dynamic web applications using HTML, CSS, JavaScript, and Python.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Cloud Solutions</h3>
+                        <p>Implementing and managing cloud services using AWS (EC2, S3, Lambda) for scalable and efficient solutions.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Database Management</h3>
+                        <p>Managing and optimizing databases using MySQL and MongoDB to ensure data integrity and performance.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Version Control</h3>
+                        <p>Utilizing Git and GitHub for version control and collaborative development.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Consultancy</h3>
+                        <p>Providing expert advice and solutions for software development projects.</p>
+                    </div>
+                    <div class="p-6 bg-card rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Training and Workshops</h3>
+                        <p>Conducting training sessions and workshops on Python development, AWS, and other technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
