@@ -2,46 +2,29 @@
 
 /* General Body Styles */
 body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  /* Navigation Styles */
-  nav {
-    background-color: #FF8C00; /* Primary color */
-    color: #FFFFFF; /* Primary foreground color */
-  }
-  
-  /* Header Styles */
-  header {
-    background-color: #FF8C00; /* Orange background */
-    color: #FFFFFF; /* White text */
-  }
-  
-  /* Form Styles */
-  form {
-    background-color: #FFFFFF; /* White background for the form */
-  }
-  
-  input, textarea {
-    border: 1px solid #E5E7EB; /* Light border color */
-  }
-  
-  input:focus, textarea:focus {
-    border-color: #32CD32; /* Green border on focus */
-  }
-  
-  button {
-    background-color: #32CD32; /* Green background */
-    color: #FFFFFF; /* White text */
-  }
-  
-  button:hover {
-    background-color: #28A745; /* Darker green on hover */
-  }
-  
-  /* Footer Styles */
-  footer {
-    background-color: #FF8C00; /* Primary color */
-    color: #FFFFFF; /* Primary foreground color */
-  }
-  
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #FF8C00; /* Primary color */
+  color: #FFFFFF; /* Primary foreground color */
+}
+
+/* Header Styles */
+header {
+  background-color: #FF8C00; /* Orange background */
+  color: #FFFFFF; /* White text */
+}
+
+/* Contact Form Section */
+section {
+  background-color: #FFFFFF; /* White background */
+  color: #333333; /* Dark text */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #FF8C00; /* Orange footer background */
+  color: #FFFFFF; /* White text */
+}
