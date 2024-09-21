@@ -49,30 +49,37 @@
   </script>
 
 </head>
-<body>
-  <div class="min-h-screen bg-background text-foreground">
-    <nav class="flex justify-between items-center p-6 bg-primary text-primary-foreground shadow-lg">
-      <div class="flex items-center">
-        <img src="C:\Users\Abhijeet\Desktop\My Portfolio Website\AP_portfolio_logo.jpg" alt="AP Portfolio Logo" class="w-16 h-16 rounded-full mr-4">
-        <div class="text-lg font-bold">abhijit_pisolkar</div>
-      </div>
-      
-  <!-- Menu Design-->
-  <nav class="menu">
-    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open">
-    <label class="menu-open-button" for="menu-open">
-     <span class="lines line-1"></span>
-     <span class="lines line-2"></span>
-     <span class="lines line-3"></span>
-   </label>
- 
-    <a href="index.html" class="menu-item blue"> <i class="fa fa-anchor"></i> </a>
-    <a href="about.html" class="menu-item green"> <i class="fa fa-coffee"></i> </a>
-    <a href="services.html" class="menu-item red"> <i class="fa fa-heart"></i> </a>
-    <a href="portfolio.html" class="menu-item purple"> <i class="fa fa-microphone"></i> </a>
-    <a href="blogs.html" class="menu-item orange"> <i class="fa fa-star"></i> </a>
-    <a href="contact.html" class="menu-item lightblue"> <i class="fa fa-diamond"></i> </a>
- </nav>
+<body class="bg-background text-foreground">
+  <div class="min-h-screen">
+    <!-- Navigation -->
+<!-- Navigation -->
+<nav class="flex justify-between items-center p-6 bg-primary text-primary-foreground shadow-lg">
+  <!-- Logo and Name on the Left -->
+  <div class="flex items-center">
+    <img src="AP_portfolio_logo.jpg" alt="AP Portfolio Logo" class="w-16 h-16 rounded-full mr-4">
+    <div class="text-lg font-bold">abhijit_pisolkar</div>
+  </div>
+
+  <!-- Hamburger Menu Button -->
+  <input type="checkbox" id="menu-toggle" class="hidden">
+  <label for="menu-toggle" class="menuButton cursor-pointer">
+    <span class="top"></span>
+    <span class="mid"></span>
+    <span class="bot"></span>
+  </label>
+
+  <!-- Menu Links -->
+  <ul id="menu-links" class="menu-links hidden flex-col absolute top-20 left-0 bg-primary w-full text-center space-y-4">
+    <li><a href="index.html" class="hover:text-gray-300 block py-2">Home</a></li>
+    <li><a href="about.html" class="hover:text-gray-300 block py-2">About</a></li>
+    <li><a href="services.html" class="hover:text-gray-300 block py-2">Services</a></li>
+    <li><a href="portfolio.html" class="hover:text-gray-300 block py-2">Portfolio</a></li>
+    <li><a href="blogs.html" class="hover:text-gray-300 block py-2">Blogs</a></li>
+    <li><a href="contact.html" class="hover:text-gray-300 block py-2">Contact</a></li>
+  </ul>
+</nav>
+
+    <!------->
 
       <ul class="flex space-x-6">
         <li><a href="index.html" class="hover:text-secondary">Home</a></li>
@@ -84,33 +91,34 @@
       </ul>
     </nav>
 
+    <!-- Hero Section -->
     <header class="bg-orange text-white py-20">
       <div class="container mx-auto flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 text-center md:text-left">
           <h4 class="text-4xl font-bold mb-4">Hi, I'm Abhijit Pisolkar, a passionate software developer specializing in AWS Cloud Technology and Python Development.</h4>
-          <p class="mb-6">I am a software developer with experience in Python, AWS Cloud, and Cyber Security. I aim to leverage my skills to contribute to innovative projects.</p>
+          <p class="mb-6">I aim to leverage my skills to contribute to innovative projects.</p>
           <a href="contact.html">
             <button class="bg-green text-white hover:bg-green-700 py-2 px-4 rounded shadow-md">Contact Me</button>
           </a>
         </div>
         <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-          <img src="C:\Users\Abhijeet\Desktop\My Portfolio Website\Abhijit_proff_pic.jpg" alt="Portrait of Abhijit Pisolkar" class="rounded-full shadow-xl">
+          <img src="Abhijit_proff_pic.jpg" alt="Portrait of Abhijit Pisolkar" class="rounded-full shadow-xl">
         </div>
       </div>
     </header>
-    
 
+    <!-- Projects Section -->
     <section class="bg-card text-white py-16">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="text-center p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <img src="https://placehold.co/64x64?text=🎨" alt="Project Icon" class="mx-auto mb-4">
           <h2 class="text-xl font-semibold mb-2">Projects</h2>
-          <p class="text-foreground">1. Realtime Face Attendance System</p>
+          <p class="text-foreground">Realtime Face Attendance System</p>
         </div>
         <div class="text-center p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <img src="https://placehold.co/64x64?text=📈" alt="Experience Icon" class="mx-auto mb-4">
           <h2 class="text-xl font-semibold mb-2">Experience & Internship</h2>
-          <p class="text-foreground">1. Python Developer at Paarsh InfoTech PRV. LTD, Nashik</p>
+          <p class="text-foreground">Python Developer at Paarsh InfoTech PRV. LTD, Nashik</p>
         </div>
         <div class="text-center p-6 border border-border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <img src="https://placehold.co/64x64?text=💡" alt="Contribution Icon" class="mx-auto mb-4">
